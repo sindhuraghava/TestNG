@@ -19,6 +19,7 @@ public class NewTest {
   }
   @Ignore
   @BeforeMethod
+  //this is opening browser
   public void beforeMethod() {
 	  System.out.println("before method");
   }
